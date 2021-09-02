@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Recap</title>
+</head>
+<body>
+    <nav style="background: rgb(180, 197, 247); height: 100%; width: 15%">
+        <h1 style="text-align: center;font-family: fantasy;"> Vertical Navigation Bar</h1>
+        <ul>
+            <li style="font-weight: bold;font-family: fantasy;">
+                <a href="./09-forms.html">Forms</a>
+            </li>
+            <br/>
+            <li style="font-weight: bold;font-family: fantasy;">
+                <a href="./08-inputs.html">Inputs</a>
+            </li>
+            <br/>
+            <li style="font-weight: bold;font-family: fantasy;">
+                <a href="./07-divs.html">Divs</a>
+            </li>
+            <br/>
+            <li style="font-weight: bold;font-family: fantasy;">
+                <a href="./14-iframes.html">Iframes</a>
+            </li>
+            <br/>
+            <li style="font-weight: bold; font-family:fantasy;">
+                <a href="http://www.google.com" target="_Blank">Google It!</a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <fieldset style="background:seashell; width: 80%;">
+            <legend> Personal info</legend>
+        <form style="width: 30%; padding-left: 2%; border: slategray;">
+            <p>
+                <label style="font-family: Arial, Helvetica, sans-serif;">Name: <input /></label>
+            </p>
+            <p>
+                <label style="font-family: Arial, Helvetica, sans-serif;">Email Address: <input /></label>
+            </p>
+            <p>
+                <label style="font-family: Arial, Helvetica, sans-serif;">Zip Code: <input /></label>
+            </p>
+            <p>
+                <label style="font-family: Arial, Helvetica, sans-serif;">Telephone: <input /></label>
+            </p>
+        </form>
+        </fieldset>
+    </div>
+    <fieldset>
+        <legend>Education Level</legend>
+        <p>
+            <input type="checkbox" name="Education"
+                id="HSorGED" value="HSorGED" />
+            <label for="HSorGED">High School Diploma or GED</label>    
+        </p>
+        <p>
+            <input type="checkbox" name="Education"
+                id="PartialCollege" value="PartialCollege" />
+            <label for="PartialCollege">Some College Credits</label>    
+        </p>
+        <p>
+            <input type="checkbox" name="Education"
+                id="Associates" value="Associates" />
+            <label for="Associates">Awarded Associates Degree</label>    
+        </p>
+        <p>
+            <input type="checkbox" name="Education"
+                id="Bachelors" value="Bachelors" />
+            <label for="Bachelors">Awarded Bachelors Degree</label>    
+        </p>
+        <p>
+            <input type="checkbox" name="Education"
+                id="Masters" value="Masters" />
+            <label for="Masters">Awarded Masters Degree</label>    
+        </p>
+        <p>
+            <input type="checkbox" name="Education"
+                id="PhD+" value="PhD+" />
+            <label for="PhD+">Awarded Doctorate Degree</label>    
+        </p>
+        <p>
+            <hr/>
+            <label for="Details">Additional Credential:</label>
+            <label for="details">Please include details for additional credentials, certificates etc</label>
+            <br/>
+            <textarea id="Additional Details" name="Additional Details"></textarea>
+        </p>
+    </fieldset>
+    </form>
+<br/>
+    <fieldset>
+        <legend>Prior Experience</legend>
+        <p>
+            <Input type="radio" name="experience"
+                id="experience" value="experience" />
+            <Label for="experience">0-2 Years</Label>
+        </p>
+        <p>
+            <Input type="radio" name="experience"
+                id="experience1" value="experience1" />
+            <Label for="experience1">3-5 years</Label>
+        </p><p>
+            <Input type="radio" name="experience"
+                id="experience2" value="experience2" />
+            <Label for="experience2">5-10 years</Label>
+        </p><p>
+            <Input type="radio" name="experience"
+                id="experience3" value="experience3" />
+            <Label for="experience3">10+ Years</Label>
+        </p>
+    </fieldset>
+<br/>
+<br/>
+</iframe>
+<h2>KabinenParty macht doch mehr spass</h2>
+<iframe src="https://www.youtube.com/embed/9I-I6yMx23g" 
+    frameborder="22"
+    width="1280" height="720" 
+    allowfullscreen></iframe>
+   </body>
+</html>
